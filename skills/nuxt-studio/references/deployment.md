@@ -39,12 +39,12 @@ export default defineNuxtConfig({
 
 On supported platforms, repository details auto-detect from CI env vars:
 
-| Platform       | Env Vars Used                                                          |
-| -------------- | ---------------------------------------------------------------------- |
+| Platform       | Env Vars Used                                                                                   |
+| -------------- | ----------------------------------------------------------------------------------------------- |
 | Vercel         | `VERCEL_GIT_PROVIDER`, `VERCEL_GIT_REPO_OWNER`, `VERCEL_GIT_REPO_SLUG`, `VERCEL_GIT_COMMIT_REF` |
-| Netlify        | `REPOSITORY_URL`, `BRANCH`                                            |
-| GitHub Actions | `GITHUB_REPOSITORY`, `GITHUB_REF_NAME`                                |
-| GitLab CI      | `CI_PROJECT_NAMESPACE`, `CI_PROJECT_NAME`, `CI_COMMIT_BRANCH`         |
+| Netlify        | `REPOSITORY_URL`, `BRANCH`                                                                      |
+| GitHub Actions | `GITHUB_REPOSITORY`, `GITHUB_REF_NAME`                                                          |
+| GitLab CI      | `CI_PROJECT_NAMESPACE`, `CI_PROJECT_NAME`, `CI_COMMIT_BRANCH`                                   |
 
 Manual config overrides auto-detection.
 
@@ -171,13 +171,13 @@ studio: {
 
 ## Troubleshooting
 
-| Issue                          | Solution                                                    |
-| ------------------------------ | ----------------------------------------------------------- |
-| Auth callback fails            | Verify callback URL matches `/__nuxt_studio/auth/{provider}` |
-| Publishing fails               | Check PAT/OAuth has write permissions to repo                |
-| Changes not visible after publish | CI/CD may still be building — wait for deployment           |
-| Draft conflicts                | Pull latest changes, discard stale drafts                    |
-| Studio route 404               | Ensure SSR deployment (`nuxt build`), not static generation  |
+| Issue                             | Solution                                                     |
+| --------------------------------- | ------------------------------------------------------------ |
+| Auth callback fails               | Verify callback URL matches `/__nuxt_studio/auth/{provider}` |
+| Publishing fails                  | Check PAT/OAuth has write permissions to repo                |
+| Changes not visible after publish | CI/CD may still be building — wait for deployment            |
+| Draft conflicts                   | Pull latest changes, discard stale drafts                    |
+| Studio route 404                  | Ensure SSR deployment (`nuxt build`), not static generation  |
 
 ## Resources
 

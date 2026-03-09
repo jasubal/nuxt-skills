@@ -148,13 +148,13 @@ export default defineNitroPlugin((nitroApp) => {
 
 ## Provider Comparison
 
-| Provider | Auth | Git Ops       | Access Control       |
-| -------- | ---- | ------------- | -------------------- |
-| GitHub   | OAuth | Automatic    | OAuth scope          |
-| GitLab   | OAuth | Automatic    | OAuth scope          |
-| Google   | OAuth | PAT required | Moderator whitelist  |
-| SSO      | SSO   | Automatic    | SSO server           |
-| Custom   | Custom| PAT required | Custom logic         |
+| Provider | Auth   | Git Ops      | Access Control      |
+| -------- | ------ | ------------ | ------------------- |
+| GitHub   | OAuth  | Automatic    | OAuth scope         |
+| GitLab   | OAuth  | Automatic    | OAuth scope         |
+| Google   | OAuth  | PAT required | Moderator whitelist |
+| SSO      | SSO    | Automatic    | SSO server          |
+| Custom   | Custom | PAT required | Custom logic        |
 
 Multiple providers can be used simultaneously (e.g., GitHub for devs + Google for editors).
 

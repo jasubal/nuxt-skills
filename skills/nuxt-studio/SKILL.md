@@ -44,14 +44,14 @@ Read specific files based on current work:
 
 ## Key Concepts
 
-| Concept        | Purpose                                                    |
-| -------------- | ---------------------------------------------------------- |
-| Auth providers | Control who can access Studio (GitHub, GitLab, Google, SSO)|
-| Git providers  | Handle publishing commits to your repository               |
-| Draft layer    | IndexedDB-backed local storage for unpublished changes     |
-| Media manager  | Upload/browse files in `/public` or external blob storage  |
-| Visual editor  | TipTap-based WYSIWYG with MDC component support           |
-| Publishing     | Commits drafts to Git, triggers CI/CD rebuild              |
+| Concept        | Purpose                                                     |
+| -------------- | ----------------------------------------------------------- |
+| Auth providers | Control who can access Studio (GitHub, GitLab, Google, SSO) |
+| Git providers  | Handle publishing commits to your repository                |
+| Draft layer    | IndexedDB-backed local storage for unpublished changes      |
+| Media manager  | Upload/browse files in `/public` or external blob storage   |
+| Visual editor  | TipTap-based WYSIWYG with MDC component support             |
+| Publishing     | Commits drafts to Git, triggers CI/CD rebuild               |
 
 ## Quick Start
 

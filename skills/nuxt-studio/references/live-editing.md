@@ -124,12 +124,12 @@ hub: { blob: { driver: 'cloudflare-r2', bucketName: 'your-bucket' } }
 
 ### Media Config Options
 
-| Option         | Type     | Default                              |
-| -------------- | -------- | ------------------------------------ |
-| `external`     | boolean  | `false`                              |
-| `maxFileSize`  | number   | `10` (MB)                            |
-| `allowedTypes` | string[] | `['image/*', 'video/*', 'audio/*']`  |
-| `prefix`       | string   | `'studio'`                           |
+| Option         | Type     | Default                             |
+| -------------- | -------- | ----------------------------------- |
+| `external`     | boolean  | `false`                             |
+| `maxFileSize`  | number   | `10` (MB)                           |
+| `allowedTypes` | string[] | `['image/*', 'video/*', 'audio/*']` |
+| `prefix`       | string   | `'studio'`                          |
 
 Supported: PNG, JPG, SVG, WebP, AVIF, GIF, MP4, MOV, WebM, MP3, WAV, AAC.
 
