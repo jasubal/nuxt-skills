@@ -1,3 +1,6 @@
+ > [!WARNING]
+> This repo may be replaced by [nuxt-skill.onmax.me](https://nuxt-skill.onmax.me/). Stay tuned.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/onmax/nuxt-skills/main/.github/nuxt-skills.webp" alt="Nuxt Skills" width="100%">
   <br>
