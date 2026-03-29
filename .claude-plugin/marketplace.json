@@ -146,6 +146,14 @@
       "description": "TresJS 3D framework for Vue with Three.js. Use when building 3D scenes or encountering TresCanvas, useTres, useGLTF, OrbitControls, post-processing errors.",
       "keywords": ["vue", "threejs", "3d", "tresjs", "cientos", "post-processing", "webgl", "canvas"],
       "category": "frontend"
+    },
+    {
+      "name": "writing-web-documentation",
+      "source": "./skills/writing-web-documentation",
+      "version": "1.0.0",
+      "description": "Write, rewrite, review, and organize developer-facing documentation for web software projects. Use when creating or improving README files, quickstarts, tutorials, how-to guides, API/reference pages, or migration guides.",
+      "keywords": ["documentation", "docs", "writing", "readme", "quickstart", "tutorial", "how-to", "reference", "migration", "troubleshooting"],
+      "category": "tooling"
     }
   ]
 }
