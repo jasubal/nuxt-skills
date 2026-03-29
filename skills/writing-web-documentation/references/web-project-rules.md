@@ -5,7 +5,9 @@
 When documenting web software, check these items explicitly.
 
 ### Environment and versions
+
 Always state or verify:
+
 - runtime version (for example Node or Bun)
 - framework version
 - package manager used in examples
@@ -14,7 +16,9 @@ Always state or verify:
 - whether examples target local development, staging, or production
 
 ### Local development
+
 For setup docs, include:
+
 - install command
 - environment variable setup
 - seed or sample data steps if required
@@ -23,7 +27,9 @@ For setup docs, include:
 - how to verify the app actually works
 
 ### Frontend-specific topics
+
 Cover these when relevant:
+
 - routing model
 - client/server boundaries
 - rendering mode (SSR, SSG, CSR, streaming, edge)
@@ -34,7 +40,9 @@ Cover these when relevant:
 - asset handling
 
 ### Backend / API topics
+
 Cover these when relevant:
+
 - authentication and authorization
 - rate limits
 - pagination
@@ -46,7 +54,9 @@ Cover these when relevant:
 - caching behavior
 
 ### Deployment topics
+
 When a page includes deployment:
+
 - separate build-time and runtime configuration
 - distinguish secrets from public environment variables
 - state platform-specific caveats
@@ -87,6 +97,7 @@ When a page includes deployment:
 ## What developers tend to like in excellent docs
 
 Use these as quality signals:
+
 - the page tells them where to start
 - examples work
 - prerequisites are not buried
@@ -100,6 +111,7 @@ Use these as quality signals:
 ## Common anti-patterns
 
 Never ship these on purpose:
+
 - a README that tries to be the entire documentation site
 - a quickstart with many branches before the reader gets a first success
 - a tutorial that reads like reference
@@ -126,6 +138,7 @@ Never ship these on purpose:
 ## Docs-as-code maintenance rules
 
 Prefer documentation that can be maintained like code:
+
 - keep docs near the code when practical
 - update docs in the same change as the product behavior
 - use review checklists

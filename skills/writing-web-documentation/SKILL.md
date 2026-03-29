@@ -30,6 +30,7 @@ Good documentation is not a dump of product facts. It is a guided path through t
 ## Non-goals
 
 Do **not** optimize for:
+
 - hype
 - marketing language
 - exhaustive background on every page
@@ -42,46 +43,62 @@ Do **not** optimize for:
 Never draft before choosing the page type. Keep page types distinct.
 
 ### README or docs landing page
+
 Use for orientation and routing.
+
 - Answer: What is this? Who is it for? Where do I start?
 - Keep it short.
 - Push deep detail into child pages.
 
 ### Quickstart
+
 Use for the fastest happy path to a working result.
+
 - One path.
 - One main environment.
 - Minimal branching.
 - Clear prerequisites and a visible success state.
 
 ### Tutorial
+
 Use to teach by doing.
+
 - The reader builds something meaningful.
 - Include checkpoints and a recap.
 - Explain enough for learning, not enough for encyclopedia coverage.
 
 ### How-to guide
+
 Use to solve one concrete problem.
+
 - Assumes the reader already knows the basics.
 - Focus on outcome, not background theory.
 
 ### Reference
+
 Use to answer precise factual questions.
+
 - Syntax, options, defaults, parameters, return values, events, errors, limits, compatibility.
 - Dry, complete, easy to scan.
 
 ### Explanation / concept page
+
 Use to build mental models.
+
 - Why the system works this way.
 - Architecture, trade-offs, invariants, decision rules.
 - Link outward to task docs and reference docs.
 
 ### Troubleshooting page
+
 Use to diagnose problems by symptom.
+
 - Symptom -> likely cause -> fix -> verify -> prevention.
 
 ### Migration guide
+
 Use when versions, APIs, or architecture change.
+
 - Make breakage explicit.
 - Show before/after.
 - Give a safe order of operations.
@@ -92,7 +109,9 @@ Use when versions, APIs, or architecture change.
 Follow this workflow unless the user asks for something narrower.
 
 ### 1) Identify the reader and job
+
 Infer or state:
+
 - reader type: beginner, experienced user, maintainer, integrator, API consumer, platform engineer
 - task: learn, set up, integrate, customize, debug, migrate, deploy, contribute
 - environment: framework, runtime, package manager, OS, browser, hosting target
@@ -101,7 +120,9 @@ Infer or state:
 If any important fact is missing, do **not** block forever. Make the narrowest reasonable assumption and label it clearly.
 
 ### 2) Inventory facts before prose
+
 Collect the facts that often go stale:
+
 - package names
 - install commands
 - runtime and framework versions
@@ -115,9 +136,11 @@ Collect the facts that often go stale:
 If you cannot verify a fact, avoid inventing it. Use a clearly marked placeholder or assumption.
 
 ### 3) Build the page skeleton first
+
 Before writing full paragraphs, create a skeleton with the exact sections the page needs.
 
 Preferred order:
+
 - context
 - prerequisites
 - steps or body
@@ -125,9 +148,11 @@ Preferred order:
 - next steps / related pages
 
 ### 4) Write for the first successful run
+
 Every task page should help the reader get one successful outcome as early as possible.
 
 That means:
+
 - front-load the shortest working path
 - minimize branching
 - postpone advanced options
@@ -135,7 +160,9 @@ That means:
 - show what success looks like
 
 ### 5) Make examples runnable
+
 Examples should be copy-pasteable or easy to adapt.
+
 - Use real filenames and realistic directories.
 - Label code fences.
 - Keep examples minimal but complete.
@@ -144,7 +171,9 @@ Examples should be copy-pasteable or easy to adapt.
 - Show expected output or visible result after important steps.
 
 ### 6) Tighten the prose
+
 After the draft exists:
+
 - shorten intros
 - split long paragraphs
 - convert vague headings into task-based headings
@@ -153,30 +182,35 @@ After the draft exists:
 - move detail out of landing pages
 
 ### 7) Run the review checklist
+
 Use `assets/review-checklist.md` before delivering.
 
 ## Reference files
 
 Load these on demand based on current task:
 
-| Reference | Purpose |
-| --------- | ------- |
-| **[references/house-style.md](references/house-style.md)** | Voice, sentence style, headings, length targets, page-type patterns |
+| Reference                                                              | Purpose                                                                                |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **[references/house-style.md](references/house-style.md)**             | Voice, sentence style, headings, length targets, page-type patterns                    |
 | **[references/web-project-rules.md](references/web-project-rules.md)** | Web-project checklists, code example rules, anti-patterns, accessibility, docs-as-code |
-| **[references/research-notes.md](references/research-notes.md)** | Research synthesis from strong documentation sites and style guides |
+| **[references/research-notes.md](references/research-notes.md)**       | Research synthesis from strong documentation sites and style guides                    |
 
 **DO NOT load all files at once.** Load only what's relevant to your current task.
 
 ## How to respond in common task modes
 
 ### When asked to write a page from scratch
+
 Deliver:
+
 1. the appropriate page type
 2. a polished Markdown draft
 3. clearly marked assumptions if any important facts are unknown
 
 ### When asked to improve existing docs
+
 Do this in order:
+
 1. identify the current page type
 2. remove mixed modes
 3. tighten structure
@@ -185,7 +219,9 @@ Do this in order:
 6. call out factual gaps or staleness risks
 
 ### When asked to review docs
+
 Return:
+
 - the page type
 - the top issues in priority order
 - exact rewrite suggestions
@@ -193,7 +229,9 @@ Return:
 - any staleness or trust issues
 
 ### When asked to design a docs site
+
 Return:
+
 - audience segments
 - entry points
 - page types needed
@@ -222,6 +260,7 @@ Return:
 ## Final instruction
 
 The best documentation pages feel easy because the writer made a hundred careful choices for the reader:
+
 - what belongs on this page
 - what does not
 - what comes first

@@ -63,26 +63,26 @@ Clone the repository and copy skill folders to your agent's skills directory:
 
 ## Skills
 
-| Skill                | Description                                                                     |
-| -------------------- | ------------------------------------------------------------------------------- |
-| **vue**              | Vue 3 Composition API, components, composables, testing                         |
-| **nuxt**             | Nuxt 4+ server routes, routing, middleware, config                              |
-| **nuxt-modules**     | Creating Nuxt modules with defineNuxtModule, Kit utilities, testing             |
-| **nuxthub**          | NuxtHub v0.10 database, KV, blob, cache, multi-cloud                            |
-| **nuxt-content**     | Nuxt Content v3 collections, queries, MDC rendering, NuxtStudio                 |
-| **nuxt-ui**          | Nuxt UI v4 components, theming, forms, overlays, composables                    |
-| **nuxt-better-auth** | Auth with @onmax/nuxt-better-auth, useUserSession, route protection, clientOnly |
-| **reka-ui**          | Reka UI headless Vue components, accessible primitives, props/emits/slots       |
-| **document-writer**  | Writing documentation for Nuxt ecosystem - MDC, style, structure, code examples |
-| **ts-library**       | TypeScript library authoring - exports, tsdown, API patterns, type tricks, CI   |
-| **motion**           | Motion Vue animations - motion component, composables, scroll, gestures         |
-| **vueuse**           | VueUse composables - state, browser, sensors, network, animation utilities      |
-| **nuxt-seo**         | Nuxt SEO meta-module - robots, sitemap, og-image, schema-org, site config       |
-| **vitest**           | Vitest testing - test API, mocking, coverage, type testing, environments        |
-| **vite**             | Vite build tool - config, plugins, HMR, SSR, library mode, performance          |
-| **pnpm**             | pnpm package manager - workspaces, catalogs, CLI commands, CI/CD                |
-| **tsdown**           | tsdown bundler - TypeScript libraries, DTS generation, package validation       |
-| **tresjs**           | TresJS 3D framework - TresCanvas, Cientos helpers, post-processing effects      |
+| Skill                         | Description                                                                             |
+| ----------------------------- | --------------------------------------------------------------------------------------- |
+| **vue**                       | Vue 3 Composition API, components, composables, testing                                 |
+| **nuxt**                      | Nuxt 4+ server routes, routing, middleware, config                                      |
+| **nuxt-modules**              | Creating Nuxt modules with defineNuxtModule, Kit utilities, testing                     |
+| **nuxthub**                   | NuxtHub v0.10 database, KV, blob, cache, multi-cloud                                    |
+| **nuxt-content**              | Nuxt Content v3 collections, queries, MDC rendering, NuxtStudio                         |
+| **nuxt-ui**                   | Nuxt UI v4 components, theming, forms, overlays, composables                            |
+| **nuxt-better-auth**          | Auth with @onmax/nuxt-better-auth, useUserSession, route protection, clientOnly         |
+| **reka-ui**                   | Reka UI headless Vue components, accessible primitives, props/emits/slots               |
+| **document-writer**           | Writing documentation for Nuxt ecosystem - MDC, style, structure, code examples         |
+| **ts-library**                | TypeScript library authoring - exports, tsdown, API patterns, type tricks, CI           |
+| **motion**                    | Motion Vue animations - motion component, composables, scroll, gestures                 |
+| **vueuse**                    | VueUse composables - state, browser, sensors, network, animation utilities              |
+| **nuxt-seo**                  | Nuxt SEO meta-module - robots, sitemap, og-image, schema-org, site config               |
+| **vitest**                    | Vitest testing - test API, mocking, coverage, type testing, environments                |
+| **vite**                      | Vite build tool - config, plugins, HMR, SSR, library mode, performance                  |
+| **pnpm**                      | pnpm package manager - workspaces, catalogs, CLI commands, CI/CD                        |
+| **tsdown**                    | tsdown bundler - TypeScript libraries, DTS generation, package validation               |
+| **tresjs**                    | TresJS 3D framework - TresCanvas, Cientos helpers, post-processing effects              |
 | **writing-web-documentation** | Write and review developer docs - page types, house style, templates, web-project rules |
 
 ## How Skills Work
