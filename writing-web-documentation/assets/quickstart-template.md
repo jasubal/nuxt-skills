@@ -4,8 +4,8 @@
 
 By the end of this guide, you will have [working result].
 
-**Time to complete**: [for example 10 minutes]  
-**Audience**: [for example new users]  
+**Time to complete**: [for example 10 minutes]
+**Audience**: [for example new users]
 **Assumptions**: [for example macOS/Linux, Node 22+, pnpm]
 
 ## Prerequisites
@@ -52,6 +52,7 @@ Explain which values are examples and which are required.
 ## 5. Verify that it works
 
 Describe the visible success state:
+
 - URL to open
 - CLI output to expect
 - file to inspect

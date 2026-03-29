@@ -43,6 +43,7 @@ Repeat the same structure.
 ## When to escalate
 
 Explain what information to collect before asking for help:
+
 - logs
 - versions
 - reproduction steps

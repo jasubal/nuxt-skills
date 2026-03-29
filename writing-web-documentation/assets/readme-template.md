@@ -41,9 +41,11 @@ Then open [local URL] or verify with [test command / expected result].
 ## Common workflows
 
 ### [Workflow 1]
+
 Short description and link.
 
 ### [Workflow 2]
+
 Short description and link.
 
 ## Project structure (optional)

@@ -12,9 +12,9 @@ One or two sentences describing what this element does.
 
 ## Parameters / props / options
 
-| Name | Type | Required | Default | Description |
-|---|---|---|---|---|
-| `example` | `string` | Yes | — | Explain what it controls. |
+| Name      | Type     | Required | Default | Description               |
+| --------- | -------- | -------- | ------- | ------------------------- |
+| `example` | `string` | Yes      | —       | Explain what it controls. |
 
 ## Returns / output
 
@@ -30,8 +30,8 @@ Describe return values, emitted events, generated files, or side effects.
 
 ## Errors
 
-| Error / status | Meaning | How to fix |
-|---|---|---|
+| Error / status  | Meaning       | How to fix |
+| --------------- | ------------- | ---------- |
 | `EXAMPLE_ERROR` | What happened | What to do |
 
 ## Compatibility / requirements

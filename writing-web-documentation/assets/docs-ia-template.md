@@ -42,15 +42,15 @@ Use this when planning a docs site or docs section.
 
 ## Page inventory
 
-| Page | Page type | Audience | Goal | Priority |
-|---|---|---|---|---|
-| Docs home | Landing | All | Route readers to the right path | P0 |
-| Quickstart | Quickstart | New users | First successful run | P0 |
-| Core concepts | Explanation | New + intermediate | Mental model | P1 |
-| Common task 1 | How-to | Existing users | Complete a real task | P1 |
-| Reference | Reference | Existing + advanced | Precise lookup | P1 |
-| Troubleshooting | Troubleshooting | Blocked users | Diagnose issues | P1 |
-| Migration guide | Migration | Existing users | Upgrade safely | P2 |
+| Page            | Page type       | Audience            | Goal                            | Priority |
+| --------------- | --------------- | ------------------- | ------------------------------- | -------- |
+| Docs home       | Landing         | All                 | Route readers to the right path | P0       |
+| Quickstart      | Quickstart      | New users           | First successful run            | P0       |
+| Core concepts   | Explanation     | New + intermediate  | Mental model                    | P1       |
+| Common task 1   | How-to          | Existing users      | Complete a real task            | P1       |
+| Reference       | Reference       | Existing + advanced | Precise lookup                  | P1       |
+| Troubleshooting | Troubleshooting | Blocked users       | Diagnose issues                 | P1       |
+| Migration guide | Migration       | Existing users      | Upgrade safely                  | P2       |
 
 ## Routing rules
 

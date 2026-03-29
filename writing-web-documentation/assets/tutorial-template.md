@@ -20,6 +20,7 @@ Describe the final result in one short paragraph.
 ## Before you start
 
 Set expectations:
+
 - how long it takes
 - what environment the tutorial assumes
 - whether the code is production-ready or educational
@@ -43,6 +44,7 @@ Tell the reader what success looks like now.
 ## 2. [Second milestone]
 
 Repeat the pattern:
+
 - goal
 - action
 - explanation
