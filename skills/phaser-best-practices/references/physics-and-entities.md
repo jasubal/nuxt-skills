@@ -16,13 +16,13 @@
 
 Use this matrix:
 
-| Need | Use |
-|---|---|
-| Platformer, top-down action, shooter, pickup collection | Arcade |
-| Simple overlap checks and fast iteration | Arcade |
+| Need                                                             | Use    |
+| ---------------------------------------------------------------- | ------ |
+| Platformer, top-down action, shooter, pickup collection          | Arcade |
+| Simple overlap checks and fast iteration                         | Arcade |
 | Compound bodies, constraints, realistic stacking, heavy rotation | Matter |
-| Physics puzzle with body shapes beyond simple AABB / circles | Matter |
-| No real physics, mostly menus / cards / visual novel | None |
+| Physics puzzle with body shapes beyond simple AABB / circles     | Matter |
+| No real physics, mostly menus / cards / visual novel             | None   |
 
 Default to **Arcade** when the answer is not obvious.
 

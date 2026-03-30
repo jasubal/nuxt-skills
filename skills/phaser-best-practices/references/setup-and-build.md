@@ -158,14 +158,14 @@ export const gameConfig: Phaser.Types.Core.GameConfig = {
 
 Use this decision table:
 
-| Need | Recommendation |
-|---|---|
-| Standard responsive game | `Phaser.Scale.FIT` |
-| UI-heavy app or layout that should resize to the browser | `Phaser.Scale.RESIZE` |
-| Manually controlled canvas size | `Phaser.Scale.NONE` |
-| Unsure about renderer | `Phaser.AUTO` |
-| Pixel art | `pixelArt: true`, integer-friendly base resolution |
-| Heavy post-processing or filters | prefer WebGL / `AUTO` |
+| Need                                                     | Recommendation                                     |
+| -------------------------------------------------------- | -------------------------------------------------- |
+| Standard responsive game                                 | `Phaser.Scale.FIT`                                 |
+| UI-heavy app or layout that should resize to the browser | `Phaser.Scale.RESIZE`                              |
+| Manually controlled canvas size                          | `Phaser.Scale.NONE`                                |
+| Unsure about renderer                                    | `Phaser.AUTO`                                      |
+| Pixel art                                                | `pixelArt: true`, integer-friendly base resolution |
+| Heavy post-processing or filters                         | prefer WebGL / `AUTO`                              |
 
 Important host-page rules:
 
